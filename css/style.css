@@ -222,9 +222,32 @@ header {
 	height:176px;
 }
 
+.logo {
+	background: url(../img/lr_logo.png) repeat;
+	width: 300px;
+	height: 179px;
+}
+
 #intro {
-	background-color:#F6F5F3;
+	background-color:#FDF9F8;
 	height:320px;
+}
+
+#intro .content div {
+	width: 370px;
+	margin-right: 65px;
+	margin-top: 25px;
+}
+
+#intro .copy {
+	width: 240px;
+	margin-left: 11px;
+}
+
+#intro .iphone-nav {
+	position: relative;
+	top: -40px;
+	left: 130px;
 }
 
 .swatch-divider {
@@ -232,15 +255,41 @@ header {
 	height: 10px;
 }
 
+.swatch-divider-shadow {
+	background: url(../img/section-backgrounds/fourswatch-shadow.png) repeat;
+	height: 10px;
+}
+
 #who {
 	background: url(../img/section-backgrounds/who-swatch.png) repeat-y;
 	height:600px;
+	color:#AAABAD;
+	padding: 1px;
+}
+
+#who .content img {
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+#who .content div {
+	width: 500px;
+	margin-top: 80px;
+}
+
+#who .content div .who-or-what {
+	font-size: 40px;
+}
+
+#who .content .copy {
+	width: 380px;
+	margin: 26px auto;
 }
 
 #work {
 	background: url(../img/section-backgrounds/work-swatch.png) repeat-y;
 	height:545px;
-	
+	padding: 1px;
 }
 
 #work .content {
@@ -248,34 +297,69 @@ header {
 	text-align: right;
 }
 
+
 .our-work {
-	width: 250px;
+	width: 330px;
 }
 
+.our-work h2 {
+	font-size:50px;
+}
+
+.our-work .copy {
+	width: 240px;
+	margin-left: 90px;
+}
+
+
+
 #temp-wood-swatch {
-	background: url(../img/section-backgrounds/wood-swatch.png) repeat-x;
-	height:61px;
+	background: url(../img/section-backgrounds/wood-swatch.jpg) repeat-x;
+	height:60px;
 }
 
 #team {
 	background: url(../img/section-backgrounds/team-swatch.png) repeat-y;
 	height:600px;
+	color:#9F9F9F;
+	padding: 50px;
 }
+
+#team .content h3 {
+	font-size: 31px;
+	margin: 0px;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+#team .content .underline {
+	background: url(../img/message_underline.png) no-repeat;
+}
+
 
 footer {
 	background: url(../img/section-backgrounds/footer-swatch.png) repeat-y;
 	height:735px;
+	padding: 1px;
+	color: #444444 ;
 }
 
 footer .content {
+	width: 790px;
+	margin: 50px 0px 0px 290px;
 	text-align: right;
 }
 
+footer .contact {
+	width: 400px;
+}
 
+footer .contact h2 {
+	font-size:50px;
+}
 
 .content {
 	width: 960px;
-/*	height: auto;*/
 	margin:0 auto;
 }
 
@@ -304,6 +388,9 @@ footer .content {
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
+.right { float:right;}
+.left { float:left;}
+.clear {clear: both}
 
 
 /* ==|== media queries ======================================================
