@@ -58,6 +58,26 @@ a:focus { outline: thin dotted; }
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
 a:hover, a:active { outline: 0; }
 
+/* =============================================================================
+   @font-face
+   ========================================================================== */
+
+@font-face {
+	font-family: 'FuturaLT-Light';
+	src: url('fonts/FuturaLT-Light.eot');
+	src: local('☺'), url('fonts/FuturaLT-Light.woff') format('woff'), url('fonts/FuturaLT-Light.ttf') format('truetype'), url('fonts/FuturaLT-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaLT-Light';
+	src: url('fonts/FuturaLT-Light.eot');
+	src: local('☺'), url('fonts/FuturaLT-Light.woff') format('woff'), url('fonts/FuturaLT-Light.ttf') format('truetype'), url('fonts/FuturaLT-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 /* =============================================================================
    Typography
@@ -92,6 +112,18 @@ small { font-size: 85%; }
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
+
+body {
+font-family: 'Vollkorn'; Georgia, serif;
+font-size: 14px;
+color: #444444;
+}
+
+h2 {
+font-family: 'FuturaLT-Bold', 'Helvetica Neue', Arial, 'Helvetica', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+}
 
 
 /* =============================================================================
@@ -239,6 +271,13 @@ header {
 	margin-top: 25px;
 }
 
+#intro .content div .solutions {
+	background: url(../img/solutions.png) no-repeat;
+	display: block;
+	width: 380px;
+	height: 100px;
+}
+
 #intro .copy {
 	width: 240px;
 	margin-left: 11px;
@@ -278,7 +317,11 @@ header {
 }
 
 #who .content div .who-or-what {
+	font-family: 'FuturaLT-Light', 'Helvetica Neue', Arial, 'Helvetica';
 	font-size: 40px;
+	display: block;
+	font-weight: 300;
+	text-transform: none;
 }
 
 #who .content .copy {
@@ -326,9 +369,10 @@ header {
 }
 
 #team .content h3 {
+	font-family: 'FuturaLT-Light', 'Helvetica Neue', Arial, 'Helvetica';
 	font-size: 31px;
 	margin: 0px;
-	font-weight: normal;
+	font-weight: 100;
 	letter-spacing: 2px;
 }
 
@@ -356,6 +400,10 @@ footer .contact {
 
 footer .contact h2 {
 	font-size:50px;
+}
+
+footer .contact .copy {
+padding: 0 0 0 100px;
 }
 
 .content {
