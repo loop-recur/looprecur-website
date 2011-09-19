@@ -244,24 +244,29 @@ td { vertical-align: top; }
    ========================================================================== */
 
 #container {
-	width: 1280px;
+	width: 100%;
 	height: auto;
 	margin:0 auto;
+	background-color: #FDD456;
+
 }
 
 header {
-	background-color:#FDD456;
-	height:176px;
+	background: url(../img/lr_top_bg.png) repeat;
+	height:180px;
 }
+
 
 .logo {
 	background: url(../img/lr_logo.png) repeat;
-	width: 300px;
-	height: 179px;
-}
+	width: 500px;
+	height: 189px;
+	margin: 0 0 0 -100px;
+	}
 
 #intro {
 	background-color:#FDF9F8;
+	background: url(../img/lr_solutions_bg.jpg) repeat-x;
 	height:320px;
 }
 
@@ -280,13 +285,14 @@ header {
 
 #intro .copy {
 	width: 240px;
-	margin-left: 11px;
+	margin: 8px 0 0 11px;
 }
 
 #intro .iphone-nav {
 	position: relative;
 	top: -40px;
-	left: 130px;
+	left: 180px;
+	z-index: 99;
 }
 
 .swatch-divider {
@@ -300,10 +306,9 @@ header {
 }
 
 #who {
-	background: url(../img/section-backgrounds/who-swatch.png) repeat-y;
+	background: url(../img/lr_who_bg.png) repeat;
 	height:600px;
 	color:#AAABAD;
-	padding: 1px;
 }
 
 #who .content img {
@@ -330,14 +335,27 @@ header {
 }
 
 #work {
-	background: url(../img/section-backgrounds/work-swatch.png) repeat-y;
-	height:545px;
-	padding: 1px;
+	background: url(../img/lr_blue_work_bg.gif) repeat;
+	height:525px;
+	position: relative;
+}
+
+#work:before {
+	content: "";
+	background: url(../img/testgradient.svg);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	height: 100%;
+	width: 100%;
 }
 
 #work .content {
 	color: #FFFFFF;
 	text-align: right;
+	position: relative;
 }
 
 
@@ -354,7 +372,18 @@ header {
 	margin-left: 90px;
 }
 
+.slider_container {
+	height: 525px;
+}
 
+#slider {
+	background: url(../img/lr_macbook.png) no-repeat;
+	background-position: bottom;
+	width: 630px;
+	height: 525px;
+	margin: 38px 0 0 -50px;
+	position: relative;
+	}
 
 #wood-swatch {
 	background: url(../img/section-backgrounds/wood-swatch.jpg) repeat-x;
