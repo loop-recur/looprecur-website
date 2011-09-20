@@ -1,0 +1,29 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <radialGradient fy="0.75781" fx="0.47266" r="0.8" cy="0.75781" cx="0.47266" id="svg_2">
+   <stop stop-opacity="0" stop-color="#9bc6d3" offset="0"/>
+   <stop stop-color="#9bc6d3" offset="1"/>
+  </radialGradient>
+  <radialGradient fy="0.75781" fx="0.47266" r="1.2" cy="0.75781" cx="0.47266" id="svg_3">
+   <stop stop-opacity="0" stop-color="#9bc6d3" offset="0"/>
+   <stop stop-color="#9bc6d3" offset="1"/>
+  </radialGradient>
+  <radialGradient id="svg_4" cx="0.47266" cy="0.75781" r="0.5" fx="0.47266" fy="0.75781">
+   <stop offset="0" stop-color="#9bc6d3" stop-opacity="0"/>
+   <stop offset="1" stop-color="#9bc6d3"/>
+  </radialGradient>
+  <radialGradient fy="0.75781" fx="0.47266" r="0.25306" cy="0.75781" cx="0.47266" id="svg_5">
+   <stop stop-opacity="0" stop-color="#9bc6d3" offset="0"/>
+   <stop stop-color="#9bc6d3" offset="1"/>
+  </radialGradient>
+  <radialGradient fy="0.75781" fx="0.47266" r="0.56327" cy="0.75781" cx="0.47266" id="svg_6">
+   <stop stop-opacity="0" stop-color="#9bc6d3" offset="0"/>
+   <stop stop-color="#9bc6d3" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="url(#svg_6)" x="0" y="0" width="640" height="480" id="svg_1"/>
+ </g>
+</svg>
