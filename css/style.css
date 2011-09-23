@@ -373,6 +373,36 @@ header {
 }
 
 
+.work-desc {
+	width: 300px;
+	text-align: right;
+}
+
+.comp {
+	background: url(../img/workimages/lr_work_droste_macbook.png) no-repeat;
+	height: 450px;
+}
+
+.netgear {
+	background: url(../img/workimages/lr_work_netgear.png) no-repeat;
+	height: 450px;
+}
+
+.njpf {
+	background: url(../img/workimages/lr_work_njpf.png) no-repeat;
+	height: 450px;
+}
+
+.webcapsule {
+	background: url(../img/workimages/lr_work_webcap.png) no-repeat;
+	height: 450px;
+}
+
+.webcapsule-mobile {
+	background: url(../img/workimages/lr_work_webcap_mob.png) no-repeat;
+	height: 450px;
+}
+
 .workholder {
 	overflow:hidden;
 	width: 960px;
@@ -383,13 +413,12 @@ header {
 }
 
 #slider {
-	background: url(../img/lr_macbook.png) no-repeat;
-	background-position: bottom;
-	width: 630px;
-	height: 525px;
-	margin: 38px 0 0 -50px;
+/*	background: url(../img/lr_macbook.png) no-repeat;*/
+/*	background-position: bottom;*/
+/*	background:red;*/
+/*	margin: 38px 0 0 -50px;*/
 	position: relative;
-	}
+}
 
 #wood-swatch {
 	background: url(../img/section-backgrounds/wood-swatch.jpg) repeat-x;
