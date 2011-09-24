@@ -483,6 +483,16 @@ padding: 0 0 0 100px;
 	margin:0 auto;
 }
 
+.contact-form {
+	
+}
+
+.iphone-send {
+	position: relative;
+	bottom: 150px;
+	right: 456px;
+}
+
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */
