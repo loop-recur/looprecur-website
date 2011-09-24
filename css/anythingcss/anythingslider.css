@@ -11,7 +11,7 @@
 /* change the ID to match your slider */
 #slider {
 	width: 900px;
-	height: 510px;
+	height: 585px;
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
 	overflow-y: auto;
@@ -19,6 +19,11 @@
 }
 /* Opera width restriction */
 .anythingBase { max-width: 32766px; }
+
+.anythingSlider, .anythingWindow {
+  height: 585px;
+}
+
 
 /*****************
   SET COLORS HERE

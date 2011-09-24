@@ -67,10 +67,9 @@ div.anythingSlider-minimalist-round .back a:hover, div.anythingSlider-minimalist
 
 /* Navigation Links */
 div.anythingSlider-minimalist-round .anythingControls {
-	float: right;
 	position: absolute;
-	bottom: 0;
-	right: 15%;
+	bottom: 15px;
+	right: 75px;
 	z-index: 100;
 	opacity: 0.90;
 	filter: alpha(opacity=90);
@@ -133,7 +132,7 @@ div.anythingSlider-minimalist-round .start-stop {
 
 /* Extra - replace defaults */
 div.anythingSlider-minimalist-round {
-	padding: 6px 30px;
+	padding: 0 30px;
 }
 
 /* text indent moved to span inside "a", for IE7; apparently, a negative text-indent on an "a" link moves the link as well as the text */

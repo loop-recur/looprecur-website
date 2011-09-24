@@ -365,6 +365,9 @@ header {
 
 .our-work h2 {
 	font-size:50px;
+  position: absolute;
+  right: 76px;
+  top: 0;
 }
 
 .our-work .copy {
@@ -372,10 +375,15 @@ header {
 	margin-left: 90px;
 }
 
+.work-item {
+  padding-top: 115px;
+}
 
 .work-desc {
 	width: 300px;
 	text-align: right;
+  margin-top: -10px;
+  margin-right: 45px;
 }
 
 .comp {
