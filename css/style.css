@@ -247,7 +247,7 @@ td { vertical-align: top; }
 	width: 100%;
 	height: auto;
 	margin:0 auto;
-	background-color: #FDD456;
+	background-color: #FFFFFF;
 
 }
 
@@ -256,6 +256,9 @@ header {
 	height:180px;
 }
 
+header .content {
+	width: 1070px;
+}
 
 .logo {
 	background: url(../img/lr_logo.png) repeat;
@@ -265,15 +268,15 @@ header {
 	}
 
 #intro {
-	background-color:#FDF9F8;
+	background-color:#FDD456;
 	background: url(../img/lr_solutions_bg.jpg) repeat-x;
 	height:320px;
 }
 
 #intro .content div {
 	width: 370px;
-	margin-right: 65px;
-	margin-top: 25px;
+	margin-right: 108px;
+	margin-top: 18px;
 }
 
 #intro .content div .solutions {
@@ -290,9 +293,15 @@ header {
 
 #intro .iphone-nav {
 	position: relative;
-	top: -40px;
-	left: 180px;
+	top: -44px;
+	left: 110px;
 	z-index: 99;
+}
+
+#intro .figure {
+	position: relative;
+	bottom: 101px;
+	left: 90px;
 }
 
 .swatch-divider {
@@ -311,14 +320,23 @@ header {
 	color:#AAABAD;
 }
 
-#who .content img {
-	margin-top: 20px;
-	margin-right: 10px;
+#who .who-info {
+	margin-left: 50px;
+	margin-top: 80px;	
 }
 
-#who .content div {
-	width: 500px;
-	margin-top: 80px;
+#who .content .infographic {
+	background: url(../img/infographic.png) no-repeat;
+	width: 425px;
+	height: 445px;
+	margin-top: 35px;
+}
+
+#who .content .figure {
+	margin-top: 405px;
+	width: 320px;
+	margin-left: 60px;
+	color: #444;
 }
 
 #who .content div .who-or-what {
@@ -330,8 +348,8 @@ header {
 }
 
 #who .content .copy {
-	width: 380px;
-	margin: 26px auto;
+	width: 360px;
+	margin: 28px 0px 0px 40px;
 }
 
 #work {
@@ -356,6 +374,7 @@ header {
 	color: #FFFFFF;
 	text-align: right;
 	position: relative;
+	width: 1060px;
 }
 
 
@@ -364,10 +383,10 @@ header {
 }
 
 .our-work h2 {
-	font-size:50px;
-  position: absolute;
-  right: 76px;
-  top: 0;
+	font-size: 62px;
+	position: absolute;
+	right: 76px;
+	top: -26px;
 }
 
 .our-work .copy {
@@ -462,20 +481,22 @@ footer {
 
 footer .content {
 	width: 790px;
-	margin: 50px 0px 0px 290px;
+	margin: 50px 0px 0px 338px;
 	text-align: right;
 }
 
 footer .contact {
 	width: 400px;
+	margin-right: 8px;
 }
 
 footer .contact h2 {
-	font-size:50px;
+	font-size:60px;
 }
 
 footer .contact .copy {
 padding: 0 0 0 100px;
+font-size: 17px;
 }
 
 .content {
