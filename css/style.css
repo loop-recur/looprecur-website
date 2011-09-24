@@ -484,13 +484,60 @@ padding: 0 0 0 100px;
 }
 
 .contact-form {
-	
+	background: url(../img/iphone-form.png) no-repeat;
+	text-align: left;
+	width: 342px;
+	height: 629px;
+	color:#FFFFFF;
+}
+
+.contact-form ul {
+	list-style: none;
+}
+
+#foli7 {
+	width: 240px;
+	position: relative;
+	top: 160px;
+	left: 20px;
+}
+
+#foli3 {
+	width: 240px;
+	position: relative;
+	top: 180px;
+	left: 20px;
+}
+
+#foli4 {
+	width: 220px;
+	position: relative;
+	top: 200px;
+	left: 20px;
+}
+
+.hide, .cloak div, .cloak span, .likert.cloak tbody, .likert.cloak thead{
+	display:none !important;
 }
 
 .iphone-send {
 	position: relative;
 	bottom: 150px;
 	right: 456px;
+}
+
+#saveForm {
+	background: url(../img/send.png) no-repeat;
+	height: 39px;
+	width: 222px;
+	border: none;
+	position: relative;
+	top: 222px;
+	left: 24px;
+}
+
+input, textarea {
+	width: 220px;
 }
 
 /* ==|== non-semantic helper classes ========================================
