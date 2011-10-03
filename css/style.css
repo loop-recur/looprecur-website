@@ -30,7 +30,7 @@ audio:not([controls]) { display: none; }
  * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
  */
 
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { font-size: 190%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 
@@ -253,7 +253,7 @@ td { vertical-align: top; }
 
 header {
 	background: url(../img/lr_top_bg.png) repeat;
-	height:180px;
+	height:18000px;
 }
 
 header .content {
