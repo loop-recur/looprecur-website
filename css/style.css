@@ -62,21 +62,24 @@ a:hover, a:active { outline: 0; }
    @font-face
    ========================================================================== */
 
-/*@font-face {
+@font-face {
 	font-family: 'FuturaLT-Light';
-	src: url('fonts/FuturaLT-Light.eot');
-	src: local('☺'), url('fonts/FuturaLT-Light.woff') format('woff'), url('fonts/FuturaLT-Light.ttf') format('truetype'), url('fonts/FuturaLT-Light.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+	src: url('fonts/FuturalLT-Light/FuturaLT-Light.eot');
+	src: local('?'), 
+	url('fonts/FuturalLT-Light/FuturaLT-Light.ttf') format('truetype'), 
+	url('fonts/FuturalLT-Light/FuturaLT-Light.svg') format('svg');
 }
 
 @font-face {
-	font-family: 'FuturaLT-Light';
-	src: url('fonts/FuturaLT-Light.eot');
-	src: local('☺'), url('fonts/FuturaLT-Light.woff') format('woff'), url('fonts/FuturaLT-Light.ttf') format('truetype'), url('fonts/FuturaLT-Light.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}*/
+	font-family: 'FuturaLT-Bold';
+	src: url('fonts/FuturaLT-Bold/FuturaLT-Bold.eot');
+	src: local('?'), 
+	url('fonts/FuturaLT-Bold/FuturaLT-Bold.ttf') format('truetype'),
+	url('fonts/FuturaLT-Bold/FuturaLT-Bold.woff') format('woff'),
+	url('fonts/FuturaLT-Bold/FuturaLT-Bold.svg') format('svg');
+}
+
+
 
 
 /* =============================================================================
@@ -377,6 +380,11 @@ header .content {
 	width: 1060px;
 }
 
+#work a {
+	text-decoration: none;
+	color: #343434;
+}
+
 
 .our-work {
 	width: 330px;
@@ -491,7 +499,7 @@ footer .contact {
 }
 
 footer .contact h2 {
-	font-size:60px;
+	font-size:58px;
 }
 
 footer .contact .copy {
