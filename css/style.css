@@ -423,6 +423,11 @@ header .content {
 	height: 450px;
 }
 
+.trippons {
+	background: url(../img/workimages/lr_work_trippons.png) no-repeat;
+	height: 450px;
+}
+
 .njpf {
 	background: url(../img/workimages/lr_work_njpf.png) no-repeat;
 	height: 450px;
