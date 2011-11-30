@@ -249,7 +249,7 @@ td { vertical-align: top; }
 #container {
 	width: 100%;
 	height: auto;
-	margin:0 auto;
+	margin: 0 auto;
 	background-color: #FFFFFF;
 
 }
@@ -259,16 +259,12 @@ header {
 	height:180px;
 }
 
-header .content {
-	width: 1070px;
-}
-
 .logo {
 	background: url(../img/lr_logo.png) repeat;
 	width: 500px;
 	height: 189px;
 	margin: 0 0 0 -100px;
-	}
+}
 
 #intro {
 	background-color:#FDD456;
@@ -276,13 +272,14 @@ header .content {
 	height:320px;
 }
 
-#intro .content div {
+#intro .solutions {
+	float: right;
 	width: 370px;
 	margin-right: 108px;
 	margin-top: 18px;
 }
 
-#intro .content div .solutions {
+#intro .content div .solution {
 	background: url(../img/solutions.png) no-repeat;
 	display: block;
 	width: 380px;
@@ -377,7 +374,6 @@ header .content {
 	color: #FFFFFF;
 	text-align: right;
 	position: relative;
-	width: 1060px;
 }
 
 #work a {
@@ -411,6 +407,7 @@ header .content {
 	text-align: right;
   margin-top: -10px;
   margin-right: 45px;
+	float:right;
 }
 
 .comp {
@@ -493,14 +490,13 @@ footer {
 }
 
 footer .content {
-	width: 790px;
-	margin: 50px 0px 0px 338px;
 	text-align: right;
 }
 
 footer .contact {
 	width: 400px;
 	margin-right: 8px;
+	float: right;
 }
 
 footer .contact h2 {
@@ -610,17 +606,108 @@ input, textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
   /* Style adjustments for viewports 480px and over go here */
 
 }
 
-@media only screen and (min-width: 768px) {
-  /* Style adjustments for viewports 768px and over go here */
+@media only screen and (max-width: 768px) {
+
+	.content {
+		width: 100%;
+	}
+
+	.logo {
+		width: 500px;
+		height: 189px;
+		margin: 0 auto;
+	}
+
+	#intro .iphone-nav,
+	.figure
+	{
+		display:none;
+	}
+
+	#intro .copy {
+		width: 240px;
+		text-align:center;
+		margin: 20px auto;
+	}
+
+	#intro .solutions {
+		margin: 0 auto;
+		float:none;
+	}
+
+	.infographic {
+		display:none;
+	}
+	
+	#work {
+		height: 900px;
+	}
+
+	.work-desc {
+		float:none;
+		width: 400px;
+		margin-top: 0px;
+		margin-right: 0px;
+		text-align: left;
+		margin: 0 auto;
+	}
+	
+	.anythingSlider {
+		height: 955px !important;
+	}
+	
+	.our-work {
+		position:inherit;
+		width: 480px;
+		text-align:center;
+		padding: 1px;
+		margin: 0 auto;
+		height: 130px;
+	}
+	
+	.our-work h2 {
+		font-size: 62px;
+		position: inherit;
+		right:0;
+		top:0;
+	}
+	
+	.work-item {
+		padding-top: 0px;
+	}
+
+	#who .who-info {
+		margin: 0 auto;
+		width: 480px;
+	}
+
+	footer {
+		height: auto;
+	}
+	
+	footer .contact {
+		width: 480px;
+		margin:0 auto;
+		float: none;
+		text-align: center;
+	}
+
+	footer .contact .copy {
+		font-size: 17px;
+		padding:0;
+	}
+	
+	.contact-form {
+		margin:0 auto;
+		color: white;
+	}
 
 }
-
-
 
 /* ==|== print styles =======================================================
    Print styles.
